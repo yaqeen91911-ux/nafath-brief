@@ -17,11 +17,17 @@ Android requires apps to request certain dangerous permissions at runtime, when 
 
 Resource: Request runtime permissions - https://developer.android.com/training/permissions/requesting
 ## Networking
+DNS over HTTPS (DoH) sends DNS queries and responses through HTTPS, helping protect DNS traffic from being read or modified by on-path observers. This can reduce exposure of the government service domains a citizen looks up. However, DoH does not hide all browsing activity, protect a compromised device, or encrypt unrelated application traffic. The DoH provider may also see DNS queries, so provider choice and privacy policies matter.
 
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
 ## Cybersecurity
+Phishing-resistant authentication prevents an impostor website from capturing and reusing authentication secrets or valid outputs. NIST identifies cryptographic methods using channel binding or verifier name binding, such as properly configured FIDO2 passkeys and security keys, as phishing-resistant. Passwords, SMS codes, and manually entered one-time passwords are not phishing-resistant, even when used as part of multi-factor authentication.
 
+Resource: NIST SP 800-63B, Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b/authenticators/
 ## Data
+Oman's Personal Data Protection Law (Royal Decree 6/2022) regulates the processing of personal data. A government authority should establish a lawful basis for processing, provide required privacy information, protect data against breaches, and respect applicable rights and obligations. It should collect only necessary information, restrict access, and apply appropriate security and retention controls. The authority must also check the law's executive regulation and any applicable exceptions for government functions.
 
+Resource: Royal Decree 6/2022, Promulgating the Personal Data Protection Law - https://qanoon.om/p/2022/rd2022006/
 ## Misconception in My Track
 
 ## Open Question
